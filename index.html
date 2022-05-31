@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Order Now - App</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/391064e85e.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-auto">
+					<h1>MyOrderNow</h1>
+				</div>
+				<div class="col-auto">
+					<div class="avatar-container" data-bs-target="#profileOptions" data-bs-toggle="modal">
+						<img src="img/avatar.jpg" alt="">
+						<i class="fa-solid fa-gear"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="profileOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+
+		      <div class="modal-header">
+		        <h5 class="modal-title">Opciones</h5>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+
+		      <div class="modal-body">
+		        <ul>
+		        	<li>
+		        		<a href="#" class="fas fa-user"> Mi perfil</a>
+		        	</li>
+		        	<li>
+		        		<a href="#" class="fas fa-map-marker-alt"> Mis direcciones</a>
+		        	</li>
+		        	<li>
+		        		<a href="#" class="fas fa-credit-card"> Mis tarjetas</a>
+		        	</li>
+		        	<li>
+		        		<a href="#" class="text-danger" class="fas fa-times-circle"> Cerrar sesión</a>
+		        	</li>
+
+		        </ul>
+		      </div>
+
+		    </div>
+		  </div>
+		</div>
+
+	</header>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
